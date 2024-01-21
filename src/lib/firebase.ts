@@ -2,12 +2,12 @@ import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_apiKey,
-  authDomain: import.meta.env.VITE_authDomain,
-  projectId: import.meta.env.VITE_projectId,
-  storageBucket: import.meta.env.VITE_storageBucket,
-  messagingSenderId: import.meta.env.VITE_messagingSenderId,
-  appId: import.meta.env.VITE_appId,
+  apiKey: 'AIzaSyAqQ0j9vmR_9jzPMUMRX64k1wsL-7A6OPw',
+  authDomain: 'redux-thunk-with-firbase.firebaseapp.com',
+  projectId: 'redux-thunk-with-firbase',
+  storageBucket: 'redux-thunk-with-firbase.appspot.com',
+  messagingSenderId: '403507668112',
+  appId: '1:403507668112:web:c2af8637c723ec1ea1e415',
 };
 
 const app = initializeApp(firebaseConfig);
